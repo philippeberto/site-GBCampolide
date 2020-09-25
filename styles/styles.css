@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fafafa;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 10vh;
+  text-align: center;
+  align-self: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: fixed;
+}
+
+.first-link {
+  padding-left: 5%;
+}
+.last-link {
+  padding-left: 5%;
+}
+
+.last-link:hover {
+  color: #2b6cb0;
+}
+
+.logo {
+  background-image: url(../public/img/GB_CAMPOLIDE_black.png);
+  width: 260px;
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-left: 50px;
+}
+
+.logo:hover {
+  background-image: url(../public/img/GB_CAMPOLIDE_blue.png);
+}
+
+.header-link {
+  font-family: "Comfortaa";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  align-self: center;
+  margin-left: 5%;
+  width: auto;
+}
+
+a:hover {
+  color: blue;
+}
+
+.hero-content {
+  margin-left: 30vh;
+  margin-top: 20vh;
+  color: white;
+  font-weight: 600;
+  line-height: 1;
+  width: 430px;
+}
+
+.hero-title {
+  font-family: "Comfortaa";
+  font-size: 4rem;
+}
+.hero-slogan {
+  font-size: 2rem;
+  margin-top: -50px;
+  text-align: right;
+}
+
+.hero-background-image {
+  background-image: url(../public/img/hero_background.png);
+  z-index: -1;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+  background-attachment: auto;
+  background-position: center;
+  background-size: 120% auto;
+}
+
+.freeclass {
+  display: flex;
+  background-color: #2b6cb0;
+  padding: 14px;
+  color: white;
+  font-size: 24px;
+  width: 70%;
+  margin-top: -9vh;
+  box-shadow: 0 25px 50px -12px rgb(0, 0, 0);
+  text-align: center;
+  padding-left: 12%;
+}
+
+.freeclass-slogan {
+  float: left;
+}
+
+.icon {
+  width: 40px;
+  align-self: center;
+  margin-left: 5vh;
+}
+
+.aboutGB {
+  color: white;
+  background-image: url(../public/img/aboutGB_backgound.jpg);
+  z-index: -1;
+  height: 60vh;
+  background-position: center;
+  background-size: 120%;
+  margin-top: 4vh;
+}
+
+.black-filter {
+  background-color: rgba(0, 0, 0, 0.514);
+  height: 60vh;
+}
+
+.about-title {
+  width: auto;
+  float: left;
+  font-family: "Comfortaa";
+  font-size: 50px;
+  font-weight: 500;
+  padding: 13vh 0 0 20vh;
+  margin: 0;
+  text-align: right;
+}
+
+.about-desc {
+  width: 300px;
+  padding: 23vh 0 0 32.5vh;
+  text-align: right;
+}
+
+.right-div {
+  width: 400px;
+  float: right;
+  text-align: justify;
+  margin-right: 15%;
+  padding-top: 15vh;
+}
+
+.h-20 {
+  display: inline-block;
+  width: 100%;
+  height: 8vh;
+}
+
+.systemGB {
+  display: inline-block;
+}
+
+.systemGB-title {
+  width: auto;
+  margin-top: 10vh;
+  color: rgb(66, 66, 66);
+  font-family: "Comfortaa";
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.systemGB-col {
+  float: left;
+  margin-top: 5vh;
+  margin-left: 9%;
+  box-shadow: 2px 2px 8px #c9c9c9, -2px -2px 8px #c9c9c9;
+  width: 20%;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  border-color: #2b6cb0;
+  border-style: solid;
+  border-width: 0 0 6px;
+  background-color: white;
+}
+
+.systemGB-subtittle {
+  text-align: center;
+  font-family: "Comfortaa";
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(66, 66, 66);
+}
+
+p,
+.systemGB {
+  font-weight: 300;
+  font-family: "Open Sans";
+}
+
+.contact {
+  display: flex;
+  background-color: rgb(22, 22, 22);
+  height: 30vh;
+  margin-top: 10vh;
+  width: 100%;
+}
+
+.contact-col {
+  float: left;
+  margin-left: 9%;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  align-self: center;
+}
+
+.contact-logo {
+  width: 120px;
+  transition: 0.3s;
+}
+
+.contact-logo:hover {
+  width: 130px;
+}
+
+.contact-tittle {
+  color: white;
+  font-family: "Comfortaa";
+}
+
+.footer {
+  text-align: right;
+  background-color: black;
+  color: rgb(185, 184, 184);
+  padding: 4px 40px;
+  font-size: 12px;
+  margin-top: -6px;
+}
+
+.footer-link {
+  color: rgb(185, 184, 184);
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.img-schedule {
+  width: 60%;
+  margin: 20vh 0 0 20%;
+  text-align: center;
+  background-color: black;
+}
+
+.gallery {
+  display: inline-block;
+  width: 80%;
+  margin: 10vh 0 0 10%;
+}
+
+.gallery-title {
+  width: auto;
+  margin-top: 10vh;
+  color: rgb(66, 66, 66);
+  font-family: "Comfortaa";
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.img-gallery {
+  float: left;
+  align-items: flex-start;
+  width: 32%;
+  margin: 2px;
+}
