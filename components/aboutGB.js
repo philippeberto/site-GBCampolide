@@ -2,9 +2,12 @@ const AboutGB = () => {
   return (
     <div className="aboutGB">
       <div className="black-filter">
-        <div>
+        <div className="about-content">
           <div>
             <p className="about-title">A Gracie Barra</p>
+            <p className="about-desc">
+              Mais de 30 anos de história e qualidade no ensino do Jiu Jitsu.
+            </p>
           </div>
           <div className="right-div">
             O mestre Carlos Gracie Jr, filho do grão mestre Carlos Gracie,
@@ -18,9 +21,6 @@ const AboutGB = () => {
             <div className="h-20"></div>
             <a name="sistemaGB"></a>
           </div>
-        </div>
-        <div className="about-desc">
-          Mais de 30 anos de história e<br /> qualidade no ensino do Jiu Jitsu.
         </div>
       </div>
     </div>

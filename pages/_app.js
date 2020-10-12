@@ -7,11 +7,6 @@ class MyApp extends App {
     const { Component, pageProps } = this.props
     return (
       <React.Fragment>
-        <style jsx global>
-          {`
-            @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-          `}
-        </style>
         <Component {...pageProps} />
       </React.Fragment>
     )
