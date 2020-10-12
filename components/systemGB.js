@@ -5,7 +5,7 @@ const SystemGB = () => {
       <div className="systemGB-ml systemGB systemGB-center">
         <div className="systemGB-col">
           <h3 className="systemGB-subtittle">Currículo</h3>
-          <p>
+          <p className="systemGB-p">
             A Gracie Barra foi pioneira em desenvolver um poderoso currículo,
             que vem sendo melhorado ao longo dos anos. Está hoje dividido em
             GB1, GB2 e GB3, respectivamente equivalentes à básico, intermediário
@@ -16,7 +16,7 @@ const SystemGB = () => {
         </div>
         <div className="systemGB-col">
           <h3 className="systemGB-subtittle">Defesa Pessoal</h3>
-          <p>
+          <p className="systemGB-p">
             No decorrer do desenvolviemnto do Currículo GB, A Gracie Barra
             manteve presente o contexto da defesa pessoal no ensino do
             Jiu-Jitsu, e a manteve inserido em seu currículo. Entendemos que o
@@ -30,7 +30,7 @@ const SystemGB = () => {
         </div>
         <div className="systemGB-col">
           <h3 className="systemGB-subtittle">Certificação</h3>
-          <p>
+          <p className="systemGB-p">
             Todos os professores e instrutores a atuar em uma Gracie Barra
             passam por um processo de certificação, onde alinham-se quanto ao
             currículo, estrutura de aulas e conduta em uma escola GB, ao padrão

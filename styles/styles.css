@@ -32,6 +32,16 @@ body {
   color: #2b6cb0;
 }
 
+.phone {
+  font-family: "Comfortaa";
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  align-self: center;
+  margin-left: 5%;
+  width: auto;
+}
+
 .logo {
   background-image: url(../public/img/GB_CAMPOLIDE_black.png);
   width: 260px;
@@ -62,7 +72,7 @@ a:hover {
   color: blue;
 }
 
-@media only screen and (max-device-width: 800px) {
+@media only screen and (max-width: 800px) {
   .header-link {
     font-size: 12px;
   }
@@ -94,23 +104,20 @@ a:hover {
   background-image: url(../public/img/hero_background.png);
   z-index: -1;
   height: 70vh;
+  width: 100%;
   position: relative;
   overflow: hidden;
   background-position: center;
-  background-size: 120% auto;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 800px) {
   .hero-content {
     margin-left: 2px;
+    width: 360px;
   }
   .hero-background-image {
-    height: auto;
-    max-width: 800px;
-    position: none;
-    overflow: none;
-    background-position: none;
   }
 }
 
@@ -119,7 +126,6 @@ a:hover {
   background-color: #2b6cb0;
   padding: 14px;
   color: white;
-  font-size: 24px;
   width: 70%;
   margin-top: -9vh;
   box-shadow: 0 25px 50px -12px rgb(0, 0, 0);
@@ -197,12 +203,12 @@ a:hover {
 
 @media only screen and (max-width: 800px) {
   .aboutGB {
-    background-size: 200%;
-    height: 46vh;
+    background-size: 100%;
+    height: 48vh;
   }
 
   .black-filter {
-    height: 46vh;
+    height: 48vh;
   }
   .about-content {
     display: grid;
@@ -231,7 +237,7 @@ a:hover {
     width: 400px;
     text-align: left;
     margin: 0 0 0 25%;
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -276,11 +282,9 @@ a:hover {
   color: rgb(66, 66, 66);
 }
 
-p,
-.systemGB {
+.systemGB-p {
   font-weight: 300;
   font-family: "Open Sans";
-  font-size: 14px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -291,6 +295,10 @@ p,
   .systemGB-col {
     width: 100%;
     margin-bottom: 4vh;
+  }
+
+  .systemGB-p {
+    font-size: 14px;
   }
 }
 
