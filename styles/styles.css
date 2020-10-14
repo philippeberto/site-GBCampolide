@@ -12,13 +12,12 @@ body {
 
 .header {
   display: flex;
-  width: 100%;
   background-color: white;
   height: 10vh;
+  width: 100%;
   text-align: center;
   align-self: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: fixed;
 }
 
 .first-link {
@@ -83,11 +82,12 @@ a:hover {
 
 .hero-content {
   margin-left: 30vh;
-  margin-top: 20vh;
+  margin-top: 4vh;
   color: white;
   font-weight: 600;
   line-height: 1;
   width: 430px;
+  align-items: flex-start;
 }
 
 .hero-title {
@@ -95,57 +95,102 @@ a:hover {
   font-size: 4rem;
 }
 .hero-slogan {
+  color: white;
+  font-weight: 600;
   font-size: 2rem;
-  margin-top: -50px;
-  text-align: right;
+  text-align: left;
+  margin: 0 0 0 30vh;
 }
 
 .hero-background-image {
-  background-image: url(../public/img/hero_background.png);
-  z-index: -1;
-  height: 70vh;
   width: 100%;
+  background-image: url(../public/img/hero_background.png);
   position: relative;
   overflow: hidden;
-  background-position: center;
-  background-size: 100% auto;
+  height: 48vh;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120% auto;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 800px) {
-  .hero-content {
-    margin-left: 2px;
-    width: 360px;
+  .hero-title {
+    font-size: 3rem;
+    padding: 4px;
   }
-  .hero-background-image {
+  .hero-slogan {
+    font-size: 1rem;
+    text-align: left;
+    margin: 0 0 0 24vh;
+  }
+  .hero-content {
+    margin: 4vh 0 0 0;
+    width: auto;
   }
 }
 
 .freeclass {
   display: flex;
+  margin-top: -7vh;
   background-color: #2b6cb0;
-  padding: 14px;
   color: white;
   width: 70%;
-  margin-top: -9vh;
   box-shadow: 0 25px 50px -12px rgb(0, 0, 0);
   text-align: center;
-  padding-left: 12%;
 }
 
 .freeclass-slogan {
+  margin-left: 8vh;
+  font-size: 28px;
   float: left;
 }
 
-.icon {
+.whatsapp {
+  background-image: url(../public/img/icons/whats_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 9%;
   width: 40px;
-  align-self: center;
-  margin-left: 5vh;
+}
+
+.instagram {
+  background-image: url(../public/img/icons/insta_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 3%;
+
+  width: 40px;
+}
+.facebook {
+  background-image: url(../public/img/icons/facebook_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 3%;
+  width: 40px;
 }
 
 @media only screen and (max-width: 800px) {
   .freeclass {
-    width: 100%;
+    width: 90%;
+    padding: 10px;
+    margin-top: -3vh;
+  }
+  .freeclass-slogan {
+    font-size: 18px;
+    margin: 0;
+    width: auto;
+  }
+  .whatsapp {
+    margin-left: 3%;
+    width: 20px;
+  }
+  .instagram,
+  .facebook {
+    width: 20px;
   }
 }
 
@@ -203,12 +248,12 @@ a:hover {
 
 @media only screen and (max-width: 800px) {
   .aboutGB {
-    background-size: 100%;
-    height: 48vh;
+    background-size: 170%;
+    height: 64vh;
   }
 
   .black-filter {
-    height: 48vh;
+    height: 64vh;
   }
   .about-content {
     display: grid;
@@ -234,8 +279,8 @@ a:hover {
     margin: 0 0 0 25%;
   }
   .right-div {
-    width: 400px;
-    text-align: left;
+    width: auto;
+    text-align: justify;
     margin: 0 0 0 25%;
     font-size: 14px;
   }
@@ -249,7 +294,7 @@ a:hover {
 }
 
 .systemGB-title {
-  width: auto;
+  width: 100%;
   margin-top: 10vh;
   color: rgb(66, 66, 66);
   font-family: "Comfortaa";
@@ -293,12 +338,16 @@ a:hover {
   }
 
   .systemGB-col {
-    width: 100%;
+    width: auto;
     margin-bottom: 4vh;
   }
 
   .systemGB-p {
     font-size: 14px;
+  }
+
+  .systemGB-ml {
+    margin-left: 0;
   }
 }
 
@@ -306,18 +355,16 @@ a:hover {
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 6rem;
   background-color: rgb(22, 22, 22);
   margin-top: 10vh;
   width: 100%;
 }
 
 .contact-col {
-  margin-left: 9%;
   width: 100%;
   text-align: center;
-  padding: 10px;
   color: white;
+  padding: 10px 0 10px 0;
   align-self: center;
 }
 

@@ -9,6 +9,15 @@ const PageHead = () => {
         name="viewport"
         content="width=device-width, initial-scale=1.0"
       ></meta>
+      <meta
+        name="keywords"
+        content="Jiu-Jitsu, jiu jitsu, jiu jitsu portugal, jiu jitsu lisboa, jiu jitsu brasileiro, gracie barra, gracie barra portugal, gracie barra lisboa"
+      ></meta>
+      <meta
+        name="description"
+        content="Escola de Jiu-Jitsu Brasileiro em Campolide. Aulas de segunda à sexta à noite e sábado pela manhã."
+      ></meta>
+      <meta name="author" content="Philippe Berto"></meta>
       <a name="home"></a>
       <div className="header">
         <Link href="/#home">

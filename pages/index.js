@@ -1,4 +1,4 @@
-import PageHead from "../components/header"
+import Header from "../components/header"
 import Hero from "../components/hero"
 import Freeclass from "../components/freeclass"
 import AboutGB from "../components/aboutGB"
@@ -9,7 +9,7 @@ import Footer from "../components/footer"
 const Index = () => {
   return (
     <div>
-      <PageHead />
+      <Header />
       <Hero />
       <Freeclass />
       <AboutGB />
