@@ -127,7 +127,7 @@ a:hover {
 
 .hero-content {
   margin-left: 30vh;
-  margin-top: 12vh;
+  margin-top: 16vh;
   color: white;
   font-weight: 600;
   line-height: 1;
@@ -151,7 +151,7 @@ a:hover {
   background-image: url(../public/img/hero_background.png);
   position: relative;
   overflow: hidden;
-  height: 48vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 120% auto;
