@@ -5,6 +5,7 @@ import Link from "next/link"
 const PageHead = () => {
   return (
     <Head>
+      <title>Gracie Barra Campolide, Lisboa</title>
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
@@ -27,17 +28,22 @@ const PageHead = () => {
         <Link href="#sistemaGB">
           <a className="header-link">Sistema GB</a>
         </Link>
-        <Link href="/gallery">
+        <Link href="/galeria">
           <a className="header-link">Galeria</a>
         </Link>
-        <Link href="/schedule">
+        <Link href="/horarios">
           <a className="header-link">Horários</a>
         </Link>
-        <div className="last-link"></div>
-
-        <Link href="https://api.whatsapp.com/send?phone=+351912212239">
-          <a className="phone">+351 912 212 239</a>
+            <p className="last-link">+351 912 212 239</p>
+        <Link href="tel:+351912212239">
+          <a className="phone-icon"></a>
         </Link>
+        <Link href="https://api.whatsapp.com/send?phone=+351912212239">
+          <a className="whats-icon"></a>
+      </Link>
+        <div className="last-link">
+          
+        </div>
       </div>
     </Head>
   )

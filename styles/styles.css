@@ -15,16 +15,24 @@ body {
   background-color: white;
   height: 10vh;
   width: 100%;
+  position: fixed;
   text-align: center;
   align-self: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .first-link {
-  padding-left: 5%;
+  padding-left: 10%;
 }
 .last-link {
-  padding-left: 5%;
+  font-family: "Comfortaa";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  align-self: center;
+  margin-left: 5%;
+  width: auto;
 }
 
 .last-link:hover {
@@ -37,8 +45,6 @@ body {
   font-weight: 700;
   color: black;
   align-self: center;
-  margin-left: 5%;
-  width: auto;
 }
 
 .logo {
@@ -50,6 +56,25 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   margin-left: 50px;
+}
+
+.phone-icon {
+  display: none;
+  background-image: url(../public/img/icons/phone_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 4%;
+  width: 20px;
+}
+.whats-icon {
+  display: none;
+  background-image: url(../public/img/icons/whats_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 2%;
+  width: 20px;
 }
 
 .logo:hover {
@@ -74,20 +99,39 @@ a:hover {
 @media only screen and (max-width: 800px) {
   .header-link {
     font-size: 12px;
+    margin-left: 2%;
   }
   .logo {
-    width: 130px;
+    background-image: url(../public/img/GBCAMPOLIDE_logo.png);
+    margin-left: 2vh;
+    width: 60px;
+  }
+  .logo:hover {
+    background-image: url(../public/img/GBCAMPOLIDE_logo.png);
+    margin-left: 2vh;
+    width: 60px;
+  }
+  .first-link {
+    padding-left: 3%;
+  }
+  .last-link {
+    display: none !important;
+  }
+  .phone-icon {
+    display: flex !important;
+  }
+  .whats-icon {
+    display: flex !important;
   }
 }
 
 .hero-content {
   margin-left: 30vh;
-  margin-top: 4vh;
+  margin-top: 12vh;
   color: white;
   font-weight: 600;
   line-height: 1;
   width: 430px;
-  align-items: flex-start;
 }
 
 .hero-title {
@@ -99,7 +143,7 @@ a:hover {
   font-weight: 600;
   font-size: 2rem;
   text-align: left;
-  margin: 0 0 0 30vh;
+  margin: -8vh 0 0 30vh;
 }
 
 .hero-background-image {
@@ -115,6 +159,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 800px) {
+  .hero-background-image {
+    height: 38vh;
+  }
   .hero-title {
     font-size: 3rem;
     padding: 4px;
@@ -125,23 +172,29 @@ a:hover {
     margin: 0 0 0 24vh;
   }
   .hero-content {
-    margin: 4vh 0 0 0;
+    margin: 12vh 0 0 1vh;
     width: auto;
   }
 }
 
 .freeclass {
   display: flex;
-  margin-top: -7vh;
+  margin: -7vh 0 0 2vh;
   background-color: #2b6cb0;
   color: white;
-  width: 70%;
+  width: 80%;
   box-shadow: 0 25px 50px -12px rgb(0, 0, 0);
   text-align: center;
+  border-radius: 40px;
+}
+
+.freeclass-content {
+  display: flex;
+  margin: 0 auto;
 }
 
 .freeclass-slogan {
-  margin-left: 8vh;
+  width: 500px;
   font-size: 28px;
   float: left;
 }
@@ -161,7 +214,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 3%;
-
   width: 40px;
 }
 .facebook {
@@ -179,13 +231,16 @@ a:hover {
     padding: 10px;
     margin-top: -3vh;
   }
+  .freeclass-content {
+    width: auto;
+  }
   .freeclass-slogan {
     font-size: 18px;
     margin: 0;
-    width: auto;
+    width: 30vh;
   }
   .whatsapp {
-    margin-left: 3%;
+    margin-left: 0;
     width: 20px;
   }
   .instagram,
@@ -198,7 +253,6 @@ a:hover {
   width: 100%;
   color: white;
   background-image: url(../public/img/aboutGB_backgound.jpg);
-  z-index: -1;
   height: 60vh;
   background-position: center;
   background-size: 100%;
@@ -230,7 +284,6 @@ a:hover {
 
 .about-desc {
   width: auto;
-  padding: 0 0 0 32.5vh;
   text-align: right;
 }
 
@@ -250,13 +303,14 @@ a:hover {
   .aboutGB {
     background-size: 170%;
     height: 64vh;
+    margin: 2vh 0 0 0;
   }
 
   .black-filter {
     height: 64vh;
   }
   .about-content {
-    display: block;
+    display: inline-block;
   }
   .about-title {
     width: auto;
@@ -280,6 +334,9 @@ a:hover {
     text-align: justify;
     margin: 2vh 2vh 0 2vh;
     font-size: 14px;
+  }
+  .h-20 {
+    height: 6vh;
   }
 }
 
@@ -401,6 +458,9 @@ a:hover {
   .contact {
     display: block;
   }
+  .contact-logo:hover {
+    width: 120px;
+  }
 }
 
 .img-schedule {
@@ -408,6 +468,22 @@ a:hover {
   margin: 20vh 0 0 20%;
   text-align: center;
   background-color: black;
+}
+
+.p-schedule {
+  width: 59%;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .img-schedule {
+    margin: 20vh 0 0 0;
+    width: 100%;
+  }
+  .p-schedule {
+    width: 90%;
+  }
 }
 
 .gallery {
@@ -430,4 +506,14 @@ a:hover {
   align-items: flex-start;
   width: 32%;
   margin: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+  .gallery-title {
+    margin-top: 4vh;
+    text-align: center;
+  }
+  .img-gallery {
+    width: 100%;
+  }
 }

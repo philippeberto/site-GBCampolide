@@ -12,6 +12,9 @@ const Schedule = () => {
           src="img/Horários_2020-21.png"
           alt="Imagem dos Horários"
         ></img>
+        <p className='p-schedule'>As aulas podem ser suspensas por algum motivo excepcional, 
+        devidamente comunicado a todos os alunos antecipadamente. Para aulas experimentais é 
+        necessário marcação prévia.</p>
       </div>
       <Contact />
 
