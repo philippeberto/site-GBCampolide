@@ -45,6 +45,24 @@ body {
   margin-left: 50px;
 }
 
+.phone-icon-lg {
+  background-image: url(../public/img/icons/phone_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15%;
+  width: 20px;
+}
+
+.whats-icon-lg {
+  background-image: url(../public/img/icons/whats_icon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 1vh;
+  width: 24px;
+}
+
 .phone-icon {
   display: none;
   background-image: url(../public/img/icons/phone_icon.png);
@@ -54,6 +72,7 @@ body {
   margin-left: 4%;
   width: 20px;
 }
+
 .whats-icon {
   display: none;
   background-image: url(../public/img/icons/whats_icon.png);
@@ -75,13 +94,12 @@ body {
   font-size: 18px;
   color: black;
   align-self: center;
-  margin-left: 15vh;
+  margin-left: 5%;
   width: auto;
 }
 
 .first-link {
-  width: 130px;
-  margin-left: 20vh;
+  margin-left: 15%;
 }
 
 .last-link {
@@ -91,12 +109,7 @@ body {
   font-size: 18px;
   color: black;
   align-self: center;
-  margin-left: 5%;
-  width: 500px;
-}
-
-.last-link:hover {
-  color: #2b6cb0;
+  margin-left: 1vh;
 }
 
 a:hover {
@@ -109,12 +122,12 @@ a:hover {
     margin-left: 2%;
   }
   .logo {
-    background-image: url(../public/img/GBCAMPOLIDE_logo.png);
+    background-image: url(../public/img/gbcamp_logo.png);
     margin-left: 2vh;
     width: 60px;
   }
   .logo:hover {
-    background-image: url(../public/img/GBCAMPOLIDE_logo.png);
+    background-image: url(../public/img/gbcamp_logo.png);
     margin-left: 2vh;
     width: 60px;
   }
@@ -123,6 +136,12 @@ a:hover {
   }
   .last-link {
     display: none !important;
+  }
+  .phone-icon-lg {
+    display: none;
+  }
+  .whats-icon-lg {
+    display: none;
   }
   .phone-icon {
     display: flex !important;

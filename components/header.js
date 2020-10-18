@@ -24,7 +24,6 @@ const PageHead = () => {
         <Link href="/#home">
           <a className="logo"></a>
         </Link>
-        <div className='menu'>
             <Link href="#sistemaGB">
               <a className="first-link header-link">Sistema GB</a>
             </Link>
@@ -34,14 +33,17 @@ const PageHead = () => {
             <Link href="/horarios">
               <a className="header-link">Horários</a>
             </Link>
-                <p className="last-link">+351 912 212 239</p>
+<div className='phone-icon-lg'></div>
+<Link href="https://api.whatsapp.com/send?phone=+351912212239">
+              <a className="whats-icon-lg"></a>
+            </Link>
+<p className="last-link">+351 912 212 239</p>
             <Link href="tel:+351912212239">
               <a className="phone-icon"></a>
             </Link>
             <Link href="https://api.whatsapp.com/send?phone=+351912212239">
               <a className="whats-icon"></a>
             </Link>
-        </div>
       </div>
     </Head>
   )
