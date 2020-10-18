@@ -465,14 +465,14 @@ a:hover {
 .footer {
   text-align: right;
   background-color: black;
-  color: rgb(185, 184, 184);
+  color: rgb(70, 70, 70);
   padding: 4px 40px;
-  font-size: 12px;
+  font-size: 10px;
   margin-top: -6px;
 }
 
 .footer-link {
-  color: rgb(185, 184, 184);
+  color: rgb(70, 70, 70);
 }
 
 .footer-link:hover {
@@ -486,6 +486,9 @@ a:hover {
   }
   .contact-logo:hover {
     width: 120px;
+  }
+  .footer {
+    text-align: center;
   }
 }
 
