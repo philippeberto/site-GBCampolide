@@ -102,12 +102,10 @@ a:hover {
     margin-left: 2%;
   }
   .logo {
-    background-image: url(../public/img/GBCAMPOLIDE_logo.png);
     margin-left: 2vh;
     width: 60px;
   }
   .logo:hover {
-    background-image: url(../public/img/GBCAMPOLIDE_logo.png);
     margin-left: 2vh;
     width: 60px;
   }
