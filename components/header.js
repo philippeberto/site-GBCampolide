@@ -24,25 +24,23 @@ const PageHead = () => {
         <Link href="/#home">
           <a className="logo"></a>
         </Link>
-        <div className="first-link"></div>
-        <Link href="#sistemaGB">
-          <a className="header-link">Sistema GB</a>
-        </Link>
-        <Link href="/galeria">
-          <a className="header-link">Galeria</a>
-        </Link>
-        <Link href="/horarios">
-          <a className="header-link">Horários</a>
-        </Link>
-            <p className="last-link">+351 912 212 239</p>
-        <Link href="tel:+351912212239">
-          <a className="phone-icon"></a>
-        </Link>
-        <Link href="https://api.whatsapp.com/send?phone=+351912212239">
-          <a className="whats-icon"></a>
-      </Link>
-        <div className="last-link">
-          
+        <div className='menu'>
+            <Link href="#sistemaGB">
+              <a className="first-link header-link">Sistema GB</a>
+            </Link>
+            <Link href="/galeria">
+              <a className="header-link">Galeria</a>
+            </Link>
+            <Link href="/horarios">
+              <a className="header-link">Horários</a>
+            </Link>
+                <p className="last-link">+351 912 212 239</p>
+            <Link href="tel:+351912212239">
+              <a className="phone-icon"></a>
+            </Link>
+            <Link href="https://api.whatsapp.com/send?phone=+351912212239">
+              <a className="whats-icon"></a>
+            </Link>
         </div>
       </div>
     </Head>

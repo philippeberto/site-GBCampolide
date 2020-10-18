@@ -21,22 +21,9 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.first-link {
-  padding-left: 10%;
-}
-.last-link {
-  font-family: "Comfortaa";
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  color: black;
-  align-self: center;
-  margin-left: 5%;
-  width: auto;
-}
-
-.last-link:hover {
-  color: #2b6cb0;
+.menu {
+  display: flex;
+  margin: 0 auto;
 }
 
 .phone {
@@ -88,8 +75,28 @@ body {
   font-size: 18px;
   color: black;
   align-self: center;
-  margin-left: 5%;
+  margin-left: 15vh;
   width: auto;
+}
+
+.first-link {
+  width: 130px;
+  margin-left: 20vh;
+}
+
+.last-link {
+  font-family: "Comfortaa";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  align-self: center;
+  margin-left: 5%;
+  width: 500px;
+}
+
+.last-link:hover {
+  color: #2b6cb0;
 }
 
 a:hover {
@@ -102,10 +109,12 @@ a:hover {
     margin-left: 2%;
   }
   .logo {
+    background-image: url(../public/img/GBCAMPOLIDE_logo.png);
     margin-left: 2vh;
     width: 60px;
   }
   .logo:hover {
+    background-image: url(../public/img/GBCAMPOLIDE_logo.png);
     margin-left: 2vh;
     width: 60px;
   }
