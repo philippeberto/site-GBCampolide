@@ -113,7 +113,7 @@ body {
 }
 
 a:hover {
-  color: blue;
+  color: #2b6cb0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -431,12 +431,162 @@ a:hover {
   }
 }
 
+.form-backgound {
+  background-color: #2b6cb0;
+  margin: 4vh 0 0 0;
+}
+
+.form {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 auto;
+  color: white;
+}
+
+.left-form {
+  margin-left: 20%;
+}
+
+.right-form {
+  margin-left: 0;
+}
+
+.form-title {
+  color: white;
+  text-align: center;
+  font-family: "Comfortaa";
+  padding: 2vh 0 2vh 0;
+}
+
+.form-input {
+  height: 30px;
+  width: 80%;
+  border-radius: 45px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  background-color: #2b6cb0;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 2vh;
+}
+
+.form-input:focus {
+  outline: 0;
+}
+
+.form-label {
+  margin-left: 5vh;
+}
+
+.input-message {
+  height: 80%;
+  width: 80%;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  background-color: #2b6cb0;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 2vh;
+}
+.input-message::-webkit-scrollbar {
+  width: 10px;
+}
+
+.input-message::-webkit-scrollbar-track {
+  background: #2b6bb000;
+  border-radius: 15px;
+}
+
+.input-message::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 15px;
+}
+
+.input-message:focus {
+  outline: 0;
+}
+
+.button-div {
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+.button {
+  font-size: 20px;
+  background-color: #2b6cb0;
+  color: white;
+  border-radius: 45px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  padding: 8px 24px 8px 24px;
+  margin-top: 4vh;
+}
+
+.button:hover {
+  background-color: white;
+  color: #2b6cb0;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.form-inline-block {
+  display: inline-block;
+}
+
+.form-block {
+  display: block;
+}
+
+.form-result {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 800px) {
+  .form {
+    display: block;
+  }
+
+  .form-input {
+    padding: 0 0 0 3vh;
+    margin-left: 2vh;
+    width: 90%;
+  }
+
+  .input-message {
+    padding: 0;
+    width: 90%;
+    height: 150px;
+    margin-left: 2vh;
+    padding-left: 2vh;
+  }
+
+  .left-form {
+    margin: 0 auto;
+  }
+
+  .form-result {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
 .contact {
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   background-color: rgb(22, 22, 22);
-  margin-top: 10vh;
+  margin-top: 8vh;
   width: 100%;
 }
 

@@ -5,6 +5,7 @@ import AboutGB from "../components/aboutGB"
 import SystemGB from "../components/systemGB"
 import Contact from "../components/contact"
 import Footer from "../components/footer"
+import Form from "../components/form"
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Freeclass />
       <AboutGB />
       <SystemGB />
+      <Form />
       <Contact />
       <Footer />
     </div>
