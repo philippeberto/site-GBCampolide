@@ -1,4 +1,4 @@
-<h1>Site criado para a escola de Jiu-Jitsu - Gracie Barra Campolide, Lisboa</h1>
+<h3>Site criado para a escola de Jiu-Jitsu - Gracie Barra Campolide, Lisboa</h3>
 
 Foi utilizado Javascript e Node.js com o NextJS.
 
