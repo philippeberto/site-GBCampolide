@@ -7,7 +7,6 @@ const Form = () => {
     Email: '',
     Mensagem: ''
   })
-
   const onChange = evt => {
     const value = evt.target.value
     const key = evt.target.name
