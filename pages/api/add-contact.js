@@ -3,13 +3,18 @@ import moment from 'moment'
 
 const doc = new GoogleSpreadsheet(process.env.SHEET_DOC_ID)
 
+const fromBase64 = value => {
+  const buff = new Buffer.from(value, 'base64')
+  return buff.toString('ascii')
+}
+
 export default async (req, res) => {
   try {
     await doc.useServiceAccountAuth({
       type: process.env.SHEET_TYPE,
       project_id: process.env.SHEET_PROJECT_ID,
       private_key_id: process.env.SHEET_PRIVATE_KEY_ID,
-      private_key: process.env.SHEET_PRIVATE_KEY,
+      private_key: fromBase64(process.env.SHEET_PRIVATE_KEY),
       client_email: process.env.SHEET_CLIENT_EMAIL,
       client_id: process.env.SHEET_CLIENT_ID,
       auth_uri: process.env.SHEET_AUTH_URI,
