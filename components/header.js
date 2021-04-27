@@ -24,26 +24,26 @@ const PageHead = () => {
         <Link href="/#home">
           <a className="logo"></a>
         </Link>
-            <Link href="#sistemaGB">
-              <a className="first-link header-link">Sistema GB</a>
-            </Link>
-            <Link href="/galeria">
-              <a className="header-link">Galeria</a>
-            </Link>
-            <Link href="/horarios">
-              <a className="header-link">Horários</a>
-            </Link>
-<div className='phone-icon-lg'></div>
-<Link href="https://api.whatsapp.com/send?phone=+351912212239">
-              <a className="whats-icon-lg"></a>
-            </Link>
-<p className="last-link">+351 912 212 239</p>
-            <Link href="tel:+351912212239">
-              <a className="phone-icon"></a>
-            </Link>
-            <Link href="https://api.whatsapp.com/send?phone=+351912212239">
-              <a className="whats-icon"></a>
-            </Link>
+        <Link href="#sistemaGB">
+          <a className="first-link header-link">Sistema GB</a>
+        </Link>
+        <Link href="/galeria">
+          <a className="header-link">Galeria</a>
+        </Link>
+        <Link href="/horarios">
+          <a className="header-link">Horários</a>
+        </Link>
+        <div className='phone-icon-lg'></div>
+        <Link href="https://api.whatsapp.com/send?phone=+351925021667">
+          <a className="whats-icon-lg"></a>
+        </Link>
+        <p className="last-link">+351 925 021 667</p>
+        <Link href="tel:+351925021667">
+          <a className="phone-icon"></a>
+        </Link>
+        <Link href="https://api.whatsapp.com/send?phone=+351925021667">
+          <a className="whats-icon"></a>
+        </Link>
       </div>
     </Head>
   )

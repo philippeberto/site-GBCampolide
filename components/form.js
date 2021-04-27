@@ -46,7 +46,7 @@ const Form = () => {
         </div>
       </div>}
       {success && <div>
-        <p className='form-result'>Agradecemos vosso interesse e retornaremos em bereve.</p>
+        <p className='form-result'>Agradecemos vosso interesse e retornaremos em breve.</p>
       </div>}
       {!success && <div className='button-div'>
         <button onClick={save} className='button'>Enviar</button>
