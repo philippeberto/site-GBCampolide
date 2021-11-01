@@ -18,7 +18,6 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <h3 className="contact-tittle">Contacto</h3>
-        <p>+351 925 021 667</p>
         <p>+351 937 443 787</p>
       </div>
     </div>

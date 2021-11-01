@@ -34,14 +34,14 @@ const PageHead = () => {
           <a className="header-link">Horários</a>
         </Link>
         <div className='phone-icon-lg'></div>
-        <Link href="https://api.whatsapp.com/send?phone=+351925021667">
+        <Link href="https://api.whatsapp.com/send?phone=+351937443787">
           <a className="whats-icon-lg"></a>
         </Link>
         <p className="last-link">+351 925 021 667</p>
         <Link href="tel:+351925021667">
           <a className="phone-icon"></a>
         </Link>
-        <Link href="https://api.whatsapp.com/send?phone=+351925021667">
+        <Link href="https://api.whatsapp.com/send?phone=+351937443787">
           <a className="whats-icon"></a>
         </Link>
       </div>
