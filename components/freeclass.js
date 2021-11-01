@@ -5,7 +5,7 @@ const Freeclass = () => {
     <div className="freeclass">
       <div className='freeclass-content'>
         <p className="freeclass-slogan">Agende Uma Aula Experimental!</p>
-        <Link href="https://api.whatsapp.com/send?phone=+351925021667">
+        <Link href="https://api.whatsapp.com/send?phone=+351937443787">
           <a className="whatsapp">
 
           </a>

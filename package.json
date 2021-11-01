@@ -6,13 +6,12 @@
   "dependencies": {
     "google-spreadsheet": "^3.0.13",
     "moment": "^2.29.1",
-    "next": "^9.5.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3005",
     "build": "next build",
     "start": "next start"
   },

@@ -12,13 +12,33 @@ body {
 
 .header {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   background-color: white;
   height: 10vh;
-  width: 100%;
-  position: fixed;
-  text-align: center;
-  align-self: center;
+  padding: 8px 30px;
+  align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-middle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 400px;
+  font-weight: 800;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
 }
 
 .menu {
@@ -37,12 +57,12 @@ body {
 .logo {
   background-image: url(../public/img/GB_CAMPOLIDE_black.png);
   width: 260px;
+  height: 50px;
   position: relative;
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  margin-left: 50px;
 }
 
 .phone-icon-lg {
@@ -52,6 +72,7 @@ body {
   background-position: center;
   margin-left: 15%;
   width: 20px;
+  height: 20px;
 }
 
 .whats-icon-lg {
@@ -61,6 +82,7 @@ body {
   background-position: center;
   margin-left: 1vh;
   width: 24px;
+  height: 24px;
 }
 
 .phone-icon {
@@ -71,6 +93,7 @@ body {
   background-position: center;
   margin-left: 4%;
   width: 20px;
+  height: 20px;
 }
 
 .whats-icon {
@@ -81,6 +104,7 @@ body {
   background-position: center;
   margin-left: 2%;
   width: 20px;
+  height: 20px;
 }
 
 .logo:hover {
@@ -90,19 +114,15 @@ body {
 .header-link {
   font-family: "Comfortaa";
   text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
   color: black;
   align-self: center;
-  margin-left: 5%;
-  width: auto;
 }
 
-.first-link {
-  margin-left: 15%;
+.header-link:hover, .header-link:active {
+  outline: 6px solid #2b6cb0;
 }
 
-.last-link {
+/* .last-link {
   font-family: "Comfortaa";
   text-decoration: none;
   font-weight: 700;
@@ -110,21 +130,30 @@ body {
   color: black;
   align-self: center;
   margin-left: 1vh;
-}
+} */
 
 a:hover {
   color: #2b6cb0;
 }
 
 @media only screen and (max-width: 800px) {
-  .header-link {
-    font-size: 12px;
-    margin-left: 2%;
+  .header {
+    padding: 4px 10px;
+  }
+
+  .header-left {
+
+  }
+
+  .header-middle {
+    font-size: 14px;
+    min-width: none !important;
+    max-width: 300px;
+    flex: 0.5;
   }
   .logo {
     background-image: url(../public/img/gbcamp_logo.png);
-    margin-left: 2vh;
-    width: 60px;
+    width: 40px;
   }
   .logo:hover {
     background-image: url(../public/img/gbcamp_logo.png);
@@ -134,7 +163,7 @@ a:hover {
   .first-link {
     padding-left: 3%;
   }
-  .last-link {
+  .phone-number {
     display: none !important;
   }
   .phone-icon-lg {
@@ -152,24 +181,24 @@ a:hover {
 }
 
 .hero-content {
-  margin-left: 30vh;
-  margin-top: 16vh;
+  margin-left: 10vh;
+  margin-top: 10vh;
   color: white;
   font-weight: 600;
   line-height: 1;
-  width: 430px;
 }
 
 .hero-title {
   font-family: "Comfortaa";
-  font-size: 4rem;
+  font-size: 6rem;
+  font-weight: bold;
 }
 .hero-slogan {
   color: white;
   font-weight: 600;
   font-size: 2rem;
   text-align: left;
-  margin: -8vh 0 0 30vh;
+  margin: 1vh 0 0 12vh;
 }
 
 .hero-background-image {
@@ -195,7 +224,7 @@ a:hover {
   .hero-slogan {
     font-size: 1rem;
     text-align: left;
-    margin: 0 0 0 24vh;
+    margin: 0 0 0 4vh;
   }
   .hero-content {
     margin: 12vh 0 0 1vh;
@@ -682,8 +711,8 @@ a:hover {
 }
 
 .img-gallery {
-  float: left;
-  align-items: flex-start;
+  display: inline-block;
+  vertical-align: top;
   width: 32%;
   margin: 2px;
 }
