@@ -37,8 +37,8 @@ const PageHead = () => {
         <Link href="https://api.whatsapp.com/send?phone=+351937443787">
           <a className="whats-icon-lg"></a>
         </Link>
-        <p className="last-link">+351 925 021 667</p>
-        <Link href="tel:+351925021667">
+        <p className="last-link">+351 937 443 787</p>
+        <Link href="tel:+351937443787">
           <a className="phone-icon"></a>
         </Link>
         <Link href="https://api.whatsapp.com/send?phone=+351937443787">
