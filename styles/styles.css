@@ -685,7 +685,9 @@ a:hover {
   float: left;
   align-items: flex-start;
   width: 32%;
+  height: 200px;
   margin: 2px;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 800px) {

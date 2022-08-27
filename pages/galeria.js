@@ -9,62 +9,42 @@ const Gallery = () => {
       <div className="gallery">
         <h1 className="gallery-title">Galeria</h1>
         <img
-          src="img/gallery/01.jpg"
+          src="img/gallery/01.jpeg"
           alt="Imagem dos Horários"
           className="img-gallery"
         ></img>
         <img
-          src="img/gallery/02.jpg"
+          src="img/gallery/02.jpeg"
           alt="Imagem dos Horários"
           className="img-gallery"
         ></img>
         <img
-          src="img/gallery/03.jpg"
+          src="img/gallery/03.jpeg"
           alt="Imagem dos Horários"
           className="img-gallery"
         ></img>
         <img
-          src="img/gallery/04.jpg"
+          src="img/gallery/04.jpeg"
           alt="Imagem dos Horários"
           className="img-gallery"
         ></img>
         <img
-          src="img/gallery/05.jpg"
+          src="img/gallery/05.jpeg"
           alt="Imagem dos Horários"
           className="img-gallery"
         ></img>
         <img
-          src="img/gallery/06.jpg"
+          src="img/gallery/06.jpeg"
           alt="Imagem dos Horários"
           className="img-gallery"
         ></img>
         <img
-          src="img/gallery/07.jpg"
+          src="img/gallery/07.jpeg"
           alt="Imagem dos Horários"
           className="img-gallery"
         ></img>
         <img
-          src="img/gallery/08.jpg"
-          alt="Imagem dos Horários"
-          className="img-gallery"
-        ></img>
-        <img
-          src="img/gallery/09.jpg"
-          alt="Imagem dos Horários"
-          className="img-gallery"
-        ></img>
-        <img
-          src="img/gallery/10.jpg"
-          alt="Imagem dos Horários"
-          className="img-gallery"
-        ></img>
-        <img
-          src="img/gallery/12.jpg"
-          alt="Imagem dos Horários"
-          className="img-gallery"
-        ></img>
-        <img
-          src="img/gallery/15.jpg"
+          src="img/gallery/08.jpeg"
           alt="Imagem dos Horários"
           className="img-gallery"
         ></img>
